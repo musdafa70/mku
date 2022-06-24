@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOUNT KENYA UNIVERSITY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+
+
+
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">COURSES</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">ADMISSIONS</a></li>
+                <li><a href="">CAMPUSES</a></li>
+                <li><a href="">SCHOOLS</a></li>
+             </ul>
+         </div>
+        
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>About Us</h1>
+
+</section>
+
+
+ <!--Footer-->
+ <section class="footer">
+    <h4>About Us</h4>
+    <P>Mount Kenya University (MKU) is a Chartered University committed to offering holistic education.<br> MKU has embraced the internationalization agenda of higher education.<br> The University promotes access to higher education by establishing Campuses and Open,<br> Distance and E-Learning (ODEL) Centres in different geographical areas in East Africa and beyond. <P>
+    <div class="icons">
+       <i class="fa fa-facebook"></i>
+       <i class="fa fa-twitter"></i>
+       <i class="fa fa-instagram"></i>
+       <i class="fa fa-linkedin"></i>
+    </div>
+
+    <p><b></b>Made With <img src="images/icon.png"> by Daud </p>
+
+
+</section>
+ <!--JavaScript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+    
+</body>
+</html>
